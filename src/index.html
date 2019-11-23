@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
     <head>
-        <title>Bootstrap 4 Layout</title>
+        <title>Arene Au</title>
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -12,6 +12,45 @@
     </head>
 
     <body>
+<!-- Navigation bar/header -->
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a href="index.html" class="navbar-brand">Irene Au</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">About</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Achievements</a>
+                                <a href="#" class="dropdown-item">Employment</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Posts</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+
+            <div class="jumbotron"> <!-- TODO: Change BG to image -->
+                <h1 class="display-4">Irene Au</h1>
+                <p class="lead">Designer. Yoga Enthusiast.</p>
+                <div class="btn-group" role="group" aria-label="Social media links">
+                    <button type="button" class="btn btn-secondary"><a class="text-white" href="https://www.linkedin.com/in/ireneau/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></button>
+                    <button type="button" class="btn btn-secondary"><a class="text-white" href="https://twitter.com/ireneau/"><i class="fa fa-twitter" aria-hidden="true"></i></a></button>
+                    <button type="button" class="btn btn-secondary"><a class="text-white" href="https://www.facebook.com/irene.au/"><i class="fa fa-facebook" aria-hidden="true"></i></a></button>
+                    <button type="button" class="btn btn-secondary"><a class="text-white" href="https://www.instagram.com/au_irene/"><i class="fa fa-instagram" aria-hidden="true"></i></a></button>
+                    <button type="button" class="btn btn-secondary"><a class="text-white" href="https://www.pinterest.com/ireneau/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></button>
+                </div>
+            </div>
+        </div> <!-- Container-->
+
         <script src="/js/jquery.min.js"></script>
         <script src="/js/popper.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
