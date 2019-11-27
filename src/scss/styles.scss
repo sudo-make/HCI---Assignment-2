@@ -1,0 +1,43 @@
+$primary-color: rgba(44, 44, 44, 0.8);
+$nav-bg-color: rgba(37, 37, 37, 0.5);
+$primary-txt-color: rgb(233, 233, 233);
+$hero-bg-image: url(../images/hero-bg-image.jpg);
+
+.bg-primary {
+    background-color: $nav-bg-color !important;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: transparent;
+    background-image: $hero-bg-image;
+    background-size: cover;
+    background-position: center;
+
+    color: $primary-txt-color;
+}
+
+.navbar-nav .active{
+    color: white;
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    background: $primary-color;
+}
+
+.dropdown-item {
+    color: $primary-txt-color;
+}
+
+.jumbotron {
+    height: auto;
+    background-color: transparent;
+}
+
+.btn-secondary {
+    padding: 20px;
+    background-color: $primary-color;
+}
