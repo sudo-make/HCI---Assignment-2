@@ -27,4 +27,6 @@
 
 .btn-secondary {
   padding: 20px;
-  background-color: rgba(44, 44, 44, 0.8); }
+  background-color: rgba(37, 37, 37, 0.5);
+  border: none;
+  border-bottom: 1px white solid; }
