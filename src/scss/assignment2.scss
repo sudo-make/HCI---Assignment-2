@@ -21,6 +21,9 @@ $hero-bg-image: url(../images/hero-bg-image.jpg);
     margin: 0;
     padding: 0;
     height: 100vh;
+}
+
+.home-page {
     background: transparent;
     background-image: $hero-bg-image;
     background-size: cover;
@@ -52,4 +55,38 @@ $hero-bg-image: url(../images/hero-bg-image.jpg);
     background-color: $nav-bg-color;
     border: none;
     border-bottom: 1px white solid;
+}
+
+// About modal
+.modal {
+    background: rgba(17, 17, 17, 0.253);
+    cursor: crosshair;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    -webkit-transition: opacity 300ms ease-in-out 1ms,visibility 1ms linear 302ms;
+    transition: opacity 300ms ease-in-out 1ms,visibility 1ms linear 302ms;
+    width: 100%;
+    opacity: 1;
+}
+
+.modal-dialog-scrollable {
+    background: rgba(17, 17, 17, 0.253);
+    cursor: default;
+    float: right;
+    max-width: 650px;
+    min-height: 100vh;
+    opacity: 1;
+    -webkit-transition: opacity 400ms ease-in-out;
+    transition: opacity 400ms ease-in-out;
+    width: 100%;
+}
+
+.modal-content {
+    border-radius: 0;
 }
