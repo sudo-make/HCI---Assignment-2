@@ -1,0 +1,129 @@
+<!-- 
+  Author: Callum-James Smith (1806094)
+  Date Created: 28-11-2019
+  Last Updated: 28-11-2019
+ -->
+ <!DOCTYPE html>
+ <html class="no-js" lang="en">
+ 
+ <head>
+   <title>Arene Au</title>
+   <meta http-equiv="x-ua-compatible" content="ie=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+   <!-- Obtained from https://www.jqueryscript.net/menu/Highlight-Nav-Bootstrap-jQuery-Dynamic-Menu.html -->
+   <script src="js/dynamic-menu.js"></script>
+ 
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800" />
+   <!-- Below is the API for Fontawesome, this provides some icons that allow for quicker load times and better responsiveness -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+   <!-- These are the css files for the website, bootstrap.css has the complete bootstrap suite.-->
+   <link rel="stylesheet" href="/css/bootstrap.css" />
+   <!-- This css file overrides the defaults set by bootstrap -->
+   <link rel="stylesheet" href="/css/assignment2.css" />
+ </head>
+
+ <body>
+    <div class="container-fluid posts-page">
+        <nav class="navbar navbar-expand-lg bg-white">
+            <a href="index.html" class="navbar-brand">
+            Irene Au
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon icon-dark"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="posts.html" class="nav-link">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="yoga.html" class="nav-link">Yoga</a>
+                    </li>
+                </ul>
+            </div>
+            <script>
+                $("#navbarSupportedContent").dynamicMenu();
+            </script>
+        </nav>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-3">Posts</h1>
+            </div>
+        </div>
+        <div class="card mb-3"> <!-- Featured Post -->
+            <div class="card-header">
+                Featured
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">UX is a canary in a coal mine</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Continue reading</a>
+            </div>
+            <div class="card-footer text-muted">2 days ago</div>
+        </div>
+
+        <div class="card-columns max-vw-100">
+            <div class="col mb-4">
+                <div class="card">
+                    <!-- Image obtained from: https://miro.medium.com/fit/c/1400/420/1*qVKI-3BxLZyPLG-xskfKQQ.png -->
+                    <img src="images/house.png" class="card-img-top" alt="A picture of a sub-urban house">
+                    <div class="card-body">
+                        <h5 class="card-title">The Architecture of Creative Collaboration</h5>
+                        <p class="card-text">The first time I spoke at the 99U conference was in 2014. While I was in Alice Tully…</p>
+                        <a href="#" class="btn btn-primary">Continue reading</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">How to choose which job to take</h5>
+                        <p class="card-text">“Which job offer should I take?” is among the questions I get asked the most these days. While I rarely tell people exactly what to do (almost any opportunity can be a good or bad one depending on what you want to do and what you make of it), I offer questions:</p>
+                        <a href="#" class="btn btn-primary">Continue reading</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Where to find great UX candidates</h5>
+                        <p class="card-text">“Part Three in a series of posts on how to recruit UX talent
+                                “Where do you find designers to hire?” Now that you understand what UX skills you need to have for your team and have written a job description that describes these needs, it’s time to…</p>
+                        <a href="#" class="btn btn-primary">Continue reading</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <!-- Image obtained from: https://miro.medium.com/fit/c/1200/360/1*g0AjazJbKsj_0Fr_IStx4g.jpeg -->
+                    <img src="images/biting-pencil.jpeg" class="card-img-top" alt="A women biting a pencil">
+                    <div class="card-body">
+                        <h5 class="card-title">Mindfulness Practices For Design</h5>
+                        <p class="card-text">How yoga and meditation can make people better designers</p>
+                        <a href="#" class="btn btn-primary">Continue reading</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Whimseybox, and a cautionary tale about subscription services and how not to shut down a startup</h5>
+                        <img src="images/WhimsicalBox.jpeg" class="card-img-bottom" alt="Whimseybox">
+                        <a href="#" class="btn btn-primary">Continue reading</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End of page container-->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script> 
+    <script src="/js/bootstrap.min.js"></script> <!-- Bootstrap Javascript stuff, animations etc. -->
+ </body>
+ 
