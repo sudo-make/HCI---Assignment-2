@@ -22,8 +22,8 @@
   text-align: left;
   font-size: 1.4em; }
 
-.btn:hover {
-  background: none; }
+.btn-social:hover {
+  background-color: transparent; }
 
 .container-fluid {
   margin: 0;
