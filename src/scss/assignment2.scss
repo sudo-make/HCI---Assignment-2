@@ -7,9 +7,9 @@
 $primary-color: rgba(44, 44, 44, 0.8);
 $nav-bg-color: rgba(37, 37, 37, 0.5);
 $primary-txt-color: rgb(233, 233, 233);
-$alt-txt-color: rgb(32, 32, 32);
+$alt-txt-color: #373D3F;
 // Image obtained from: https://www.pexels.com
-$hero-bg-image: url(../images/hero-bg-image.jpg);
+$hero-bg-image: url(../images/ancient-architecture-asia-bench-301614.jpg);
 
 // Set text color
 @function set-text-color($color) {
@@ -26,7 +26,7 @@ $hero-bg-image: url(../images/hero-bg-image.jpg);
 }
 
 .bg-primary {
-    background-color: $nav-bg-color !important;
+    background-color: transparent !important;
 }
 
 .container-fluid {
@@ -36,18 +36,17 @@ $hero-bg-image: url(../images/hero-bg-image.jpg);
 }
 
 // Home page
-
 .home-page {
     background: transparent;
     background-image: $hero-bg-image;
     background-size: cover;
     background-position: center;
 
-    color: set-text-color($primary-color);
+    color: $alt-txt-color;
 }
 
 .navbar-nav .active{
-    color: white;
+    color: $alt-txt-color;
     text-decoration: underline;
 }
 
@@ -94,11 +93,18 @@ $hero-bg-image: url(../images/hero-bg-image.jpg);
     cursor: default;
     float: right;
     max-width: 650px;
-    min-height: 100vh;
+    min-height: 94vh;
+    margin-right: 8px;
     opacity: 1;
     -webkit-transition: opacity 400ms ease-in-out;
     transition: opacity 400ms ease-in-out;
     width: 100%;
+}
+@media (max-width: 650px) {
+    .modal-dialog-scrollable {
+        margin: 0;
+        height: 100vh;
+    }
 }
 
 .modal-content {
