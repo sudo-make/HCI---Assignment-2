@@ -9,10 +9,31 @@
 .bg-primary {
   background-color: transparent !important; }
 
+.btn-dark {
+  border: 1px #373D3F solid;
+  background: transparent;
+  color: #373D3F; }
+
+.btn-social {
+  padding: auto;
+  width: 60px;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  font-size: 1.4em; }
+
+.btn:hover {
+  background: none; }
+
 .container-fluid {
   margin: 0;
   padding: 0;
   height: 100vh; }
+
+.navigation-links {
+  margin-right: 50px;
+  padding: 8px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 .home-page {
   background: transparent;
@@ -23,23 +44,12 @@
 
 .navbar-nav .active {
   color: #373D3F;
-  text-decoration: underline; }
-
-.dropdown-menu {
-  background: rgba(44, 44, 44, 0.8); }
-
-.dropdown-item {
-  color: #e9e9e9; }
+  text-decoration: solid underline;
+  text-underline-offset: 1.2em; }
 
 .jumbotron {
   height: auto;
   background-color: transparent; }
-
-.btn-social {
-  padding: 20px;
-  width: 60px;
-  background-color: transparent;
-  border: 1px #373D3F solid; }
 
 .modal {
   background: rgba(17, 17, 17, 0.253);
