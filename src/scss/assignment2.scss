@@ -63,11 +63,11 @@ $hero-bg-image: url(../images/ancient-architecture-asia-bench-301614.jpg);
     background-color: transparent;
 }
 
-.btn-secondary {
+.btn-social {
     padding: 20px;
-    background-color: $nav-bg-color;
-    border: none;
-    border-bottom: 1px white solid;
+    width: 60px;
+    background-color: transparent;
+    border: 1px $alt-txt-color solid;
 }
 
 // About modal

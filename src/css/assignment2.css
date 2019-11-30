@@ -35,11 +35,11 @@
   height: auto;
   background-color: transparent; }
 
-.btn-secondary {
+.btn-social {
   padding: 20px;
-  background-color: rgba(37, 37, 37, 0.5);
-  border: none;
-  border-bottom: 1px white solid; }
+  width: 60px;
+  background-color: transparent;
+  border: 1px #373D3F solid; }
 
 .modal {
   background: rgba(17, 17, 17, 0.253);
