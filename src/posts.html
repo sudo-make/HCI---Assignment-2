@@ -24,15 +24,13 @@
  </head>
 
  <body>
-    <div class="container-fluid posts-page">
-        <nav class="navbar navbar-expand-lg bg-white">
-            <a href="index.html" class="navbar-brand">
-            Irene Au
-            </a>
+    <div class="container-fluid posts-page"> <!-- Page Container -->
+        <nav class="navbar navbar-expand-lg bg-white"> <!-- Navigation Container -->
+            <a href="index.html" class="navbar-brand">Irene Au</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon icon-dark"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- NAvigation Links Container -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                     <a href="index.html" class="nav-link">Home</a>
@@ -49,18 +47,18 @@
                 </ul>
             </div>
             <script>
-                $("#navbarSupportedContent").dynamicMenu();
+                $("#navbarSupportedContent").dynamicMenu(); // Highlights active page
             </script>
         </nav>
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid"> <!-- Jumbotron Container -->
             <div class="container">
                 <h1 class="display-3">Posts</h1>
             </div>
         </div>
+        <h3 class="h3">Featured</h3>
         <div class="card mb-3"> <!-- Featured Post -->
-            <div class="card-header">
-                Featured
-            </div>
+            <!-- Image obtained from: https://miro.medium.com/max/240/1*uD5SeJUZbBO8pGEdUJVLfQ.jpeg -->
+            <img src="images/bird-in-cage.jpeg" class="card-img-top" style="width: 200px;" alt="A yellow cartoon bird inside of a cage">
             <div class="card-body">
                 <h5 class="card-title">UX is a canary in a coal mine</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -69,6 +67,7 @@
             <div class="card-footer text-muted">2 days ago</div>
         </div>
 
+        <h3 class="h3">Latest</h3>
         <div class="card-columns max-vw-100">
             <div class="col mb-4">
                 <div class="card">
@@ -115,11 +114,24 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Whimseybox, and a cautionary tale about subscription services and how not to shut down a startup</h5>
-                        <img src="images/WhimsicalBox.jpeg" class="card-img-bottom" alt="Whimseybox">
+                        <!-- Image obtained from: https://miro.medium.com/max/360/1*wHph2baer_K1PnVfv9S4YQ.jpeg -->
+                        <img src="images/WhimsicalBox.jpeg" class="card-img-bottom" alt="A white box with blue text saying: Whimseybox">
                         <a href="#" class="btn btn-primary">Continue reading</a>
                     </div>
                 </div>
             </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <!-- Image obtained from: https://miro.medium.com/fit/c/700/210/1*cSAUFRG7rThM6I9KWjE1CQ.jpeg -->
+                    <img src="images/pen-on-paper.jpeg" class="card-img-top" alt="A newspaper showing a help-wanted advert">
+                    <div class="card-body">
+                        <h5 class="card-title">Writing a Job Description for UX People</h5>
+                        <p class="card-text">Part Two in a series of posts on how to recruit UX talent</p>
+                        <a href="#" class="btn btn-primary">Continue reading</a>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div> <!-- End of page container-->
     <script src="/js/jquery.min.js"></script>
