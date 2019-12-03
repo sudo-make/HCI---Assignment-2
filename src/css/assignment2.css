@@ -1,7 +1,7 @@
 /**
   Author: Callum-James Smith (1806094)
   Date Created: 20-11-2019
-  Last Updated: 30-11-2019
+  Last Updated: 03-12-2019
 */
 .icon-dark {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(32, 32, 32, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
@@ -34,6 +34,9 @@
   margin-right: 50px;
   padding: 8px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.navigation-links:hover {
+  border-bottom: 2px solid rgba(55, 61, 63, 0.4); }
 
 .home-page {
   background: transparent;
@@ -122,3 +125,11 @@
 .img-round {
   border-radius: 180px;
   width: 180px; }
+
+@media (max-width: 1038px) {
+  .home-page {
+    background: white; }
+  .home-featured {
+    margin: 0 auto !important;
+    display: block;
+    float: none !important; } }

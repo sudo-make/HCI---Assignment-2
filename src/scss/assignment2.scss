@@ -1,7 +1,7 @@
 /**
   Author: Callum-James Smith (1806094)
   Date Created: 20-11-2019
-  Last Updated: 30-11-2019
+  Last Updated: 03-12-2019
 */
 
 $primary-color: rgba(44, 44, 44, 0.8);
@@ -58,6 +58,10 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
     margin-right: 50px;
     padding: 8px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.navigation-links:hover {
+    border-bottom: 2px solid rgba(55, 61, 63, 0.4);
 }
 
 // Home page
@@ -164,4 +168,15 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
 .img-round {
     border-radius: 180px;
     width: 180px;
+}
+
+@media (max-width: 1038px) {
+    .home-page {
+        background: white;
+    }
+    .home-featured {
+        margin: 0 auto !important;
+        display: block;
+        float: none !important;
+    }
 }
