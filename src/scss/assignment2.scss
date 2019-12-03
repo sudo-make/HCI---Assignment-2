@@ -64,6 +64,16 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
     border-bottom: 2px solid rgba(55, 61, 63, 0.4);
 }
 
+.nav-tabs, .card-header {
+    background: white;
+}
+
+.nav-link {
+    background: none;
+    color: $alt-txt-color;
+    border-radius: 0px;
+}
+
 // Home page
 .home-page {
     background: transparent;

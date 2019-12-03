@@ -38,6 +38,14 @@
 .navigation-links:hover {
   border-bottom: 2px solid rgba(55, 61, 63, 0.4); }
 
+.nav-tabs, .card-header {
+  background: white; }
+
+.nav-link {
+  background: none;
+  color: #373D3F;
+  border-radius: 0px; }
+
 .home-page {
   background: transparent;
   background-image: url(../images/home-bg-image.jpg);
