@@ -71,13 +71,14 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
 
 .navbar-nav .active{
     color: $alt-txt-color;
-    text-decoration: solid underline;
-    text-underline-offset: 1.2em; // Only works on Firefox (just a slight style)
+    border-bottom: 2px solid $alt-txt-color;
 }
 
 .jumbotron {
     height: auto;
     background-color: transparent;
+    text-align: center;
+    margin: 0 auto;
 }
 
 // About modal
@@ -148,4 +149,19 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
     background: $yoga-bg-image;
     background-size: cover;
     background-position: center;
+}
+
+.yoga-about {
+    height: auto;
+}
+
+.about-card {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+.img-round {
+    border-radius: 180px;
+    width: 180px;
 }
