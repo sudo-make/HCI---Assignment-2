@@ -180,14 +180,15 @@ ul.timeline > li:before {
   text-align: left;
   margin: 0 auto;
   display: table;
-  width: auto; }
+  width: 75%; }
 
 .about-card {
   border: none;
   background: transparent;
   box-shadow: none;
   vertical-align: middle;
-  display: table-cell; }
+  display: table-cell;
+  width: 100%; }
 
 .yoga-teaching {
   height: 35vh;
