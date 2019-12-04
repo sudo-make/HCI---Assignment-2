@@ -1,7 +1,7 @@
 <!-- 
   Author: Callum-James Smith (1806094)
   Date Created: 03-12-2019
-  Last Updated: 03-12-2019
+  Last Updated: 04-12-2019
  -->
  <!DOCTYPE html>
  <html class="no-js" lang="en">
@@ -58,31 +58,80 @@
      </nav> <!-- End of navigation -->
  
      <div class="jumbotron">
-       <h1 class="display-4">Yoga Training</h1>
+       <h1 class="display-4">Yoga Teaching</h1>
        <p class="lead">
            <a class="btn-link" href="#about">About</a>
            <span> / </span>
-           <a class="btn-link" href="#">Bookings</a>
-           <span> / </span>
-           <a class="btn-link" href="#">History</a>
+           <a class="btn-link" href="#teaching">Teaching Schedule</a>
         </p>
      </div>
    </div> <!-- End of page container-->
    
-   <div class="container-fluid yoga-about">
-        <div class="card mb-3 w-75 about-card" style="max-width: 75vw;">
+   <div class="container-fluid yoga-about" id="about">
+        <div class="card about-card">
             <div class="row no-gutters">
-                <div class="col-md-3">
-                  <img src="images/irene-au.jpg" class="card-img img-round" alt="A picture">
-                </div>
-                <div class="col-md-8">
+                <div class="col-md-10 m-5 center">
                   <div class="card-body">
                       <h2 class="card-title">About my yoga training</h2>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">I was first introduced to yoga at the age of 16 and recommitted to my practice when my hectic career and passion for group exercise and fitness led me to pursue yoga for its many benefits. I draw on many styles of yoga, combining choreographed flow sequences with proper alignment to make yoga accessible yet challenging. My sequences are well-rounded, with a focus on safety, joining movement with breath, and having fun.</p>
                   </div>
                 </div>
             </div>
         </div>
+   </div>
+   <div class="container-fluid yoga-teaching" id="teaching">
+    <div class="card mb-3 w-75 teaching-card" style="max-width: 75vw;">
+      <div>
+        <div class="table-responsive">
+          <h2 class="card-title">Yoga Teaching Schedule</h2>
+            <table class="table table-condensed table-bordered">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Event</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                      <td rowspan="1">
+                          <div>14</div>
+                          <div>Monday</div>
+                          <div class="text-muted">December, 2019</div>
+                      </td>
+                      <td>5:30 AM</td>
+                      <td>
+                          <div>Strong and Long @ Avalon</div>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td class="agenda-date" class="active" rowspan="3">
+                          <div>18</div>
+                          <div>Thursday</div>
+                          <div class="text-muted">December, 2019</div>
+                      </td>
+                      <td>8:00 - 9:00 AM </td>
+                      <td>
+                          <div>Vinyasa Flow @ Avalon</div>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>10:15 AM - 12:00 PM</td>
+                      <td>
+                          <div>Gentle Flow @ Avalon</div>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td class="text-dark">7:00 - 9:00 PM</td>
+                      <td>
+                          <div>Strong and Long @ Avalon</div>
+                      </td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+      </div>
+    </div>
    </div>
  
    <!-- About Modal -->
