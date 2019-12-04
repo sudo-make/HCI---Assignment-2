@@ -1,13 +1,13 @@
 /**
   Author: Callum-James Smith (1806094)
   Date Created: 20-11-2019
-  Last Updated: 03-12-2019
+  Last Updated: 04-12-2019
 */
 
 $primary-color: rgba(44, 44, 44, 0.8);
-$nav-bg-color: rgba(37, 37, 37, 0.5);
+$nav-bg-color: rgb(37, 37, 37);
 $primary-txt-color: rgb(233, 233, 233);
-$alt-txt-color: #373D3F;
+$alt-txt-color: rgb(37, 41, 43);
 $hover-color: #007bff;
 // Image obtained from: https://www.pexels.com
 $hero-bg-image: url(../images/home-bg-image.jpg);
@@ -35,6 +35,10 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
     border: 1px $alt-txt-color solid;
     background: transparent;
     color: $alt-txt-color;
+}
+
+.btn-link {
+    color: rgb(68, 68, 156);
 }
 
 .btn-social {
@@ -80,7 +84,7 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
 
 .nav-link {
     background: none;
-    color: $alt-txt-color;
+    color: $alt-txt-color !important;
     border-radius: 0px;
 }
 

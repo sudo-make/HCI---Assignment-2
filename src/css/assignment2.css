@@ -1,7 +1,7 @@
 /**
   Author: Callum-James Smith (1806094)
   Date Created: 20-11-2019
-  Last Updated: 03-12-2019
+  Last Updated: 04-12-2019
 */
 .icon-dark {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(32, 32, 32, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
@@ -10,9 +10,12 @@
   background-color: transparent !important; }
 
 .btn-dark {
-  border: 1px #373D3F solid;
+  border: 1px #25292b solid;
   background: transparent;
-  color: #373D3F; }
+  color: #25292b; }
+
+.btn-link {
+  color: #44449c; }
 
 .btn-social {
   padding: auto;
@@ -50,7 +53,7 @@
 
 .nav-link {
   background: none;
-  color: #373D3F;
+  color: #25292b !important;
   border-radius: 0px; }
 
 .card-about {
@@ -63,11 +66,11 @@
   background-image: url(../images/home-bg-image.jpg);
   background-size: cover;
   background-position: center;
-  color: #373D3F; }
+  color: #25292b; }
 
 .navbar-nav .active {
-  color: #373D3F;
-  border-bottom: 2px solid #373D3F; }
+  color: #25292b;
+  border-bottom: 2px solid #25292b; }
 
 .jumbotron {
   height: auto;
@@ -155,12 +158,12 @@ ul.timeline > li:before {
 
 .bg-white > a,
 .navbar-nav > li > a {
-  color: #373D3F; }
+  color: #25292b; }
 
 .card {
   max-width: 1000px;
   width: 100%;
-  color: #373D3F;
+  color: #25292b;
   margin: 0 auto;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
