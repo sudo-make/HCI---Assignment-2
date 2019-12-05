@@ -163,6 +163,8 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
     background: $yoga-bg-image;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .yoga-about {
