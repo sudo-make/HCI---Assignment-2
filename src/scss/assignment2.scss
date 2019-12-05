@@ -1,13 +1,14 @@
 /**
   Author: Callum-James Smith (1806094)
   Date Created: 20-11-2019
-  Last Updated: 03-12-2019
+  Last Updated: 04-12-2019
 */
 
 $primary-color: rgba(44, 44, 44, 0.8);
-$nav-bg-color: rgba(37, 37, 37, 0.5);
+$nav-bg-color: rgb(37, 37, 37);
 $primary-txt-color: rgb(233, 233, 233);
-$alt-txt-color: #373D3F;
+$alt-txt-color: rgb(37, 41, 43);
+$hover-color: #007bff;
 // Image obtained from: https://www.pexels.com
 $hero-bg-image: url(../images/home-bg-image.jpg);
 $yoga-bg-image: url(../images/yoga-bg-image.jpg);
@@ -36,6 +37,10 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
     color: $alt-txt-color;
 }
 
+.btn-link {
+    color: rgb(68, 68, 156);
+}
+
 .btn-social {
     padding: auto;
     width: 60px;
@@ -46,6 +51,15 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
 }
 .btn-social:hover {
     background-color: transparent;
+}
+
+.fa {
+    font-size: 1.2em;
+}
+
+.fa:hover {
+    transition: ease-in 0.3s;
+    color: $hover-color;
 }
 
 .container-fluid {
@@ -70,8 +84,14 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
 
 .nav-link {
     background: none;
-    color: $alt-txt-color;
+    color: $alt-txt-color !important;
     border-radius: 0px;
+}
+
+.card-about {
+    height: auto;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 // Home page
@@ -93,6 +113,13 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
     background-color: transparent;
     text-align: center;
     margin: 0 auto;
+}
+
+.jumbo-info {
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
 }
 
 // About modal
@@ -135,6 +162,39 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
 .modal-content {
     border-radius: 0;
 }
+// Timeline feature of the employment tab
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    text-align: left;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+// Creates the line and circle effect
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid rgb(55, 61, 63);
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
 
 // Posts page
 .posts-page {
@@ -164,16 +224,36 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 
 .yoga-about {
-    height: auto;
+    height: 35vh;
+    text-align: left;
+    margin: 0 auto;
+    display: table;
+    width: 75%;
 }
 
 .about-card {
     border: none;
     background: transparent;
+    box-shadow: none;
+    vertical-align: middle;
+    display: table-cell;
+    width: 100%;
+}
+
+.yoga-teaching {
+    height: 35vh;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+}
+
+.teaching-card {
+    margin: 0 auto;
+    display: block;
+    border: none;
     box-shadow: none;
 }
 
@@ -190,5 +270,8 @@ $yoga-bg-image: url(../images/yoga-bg-image.jpg);
         margin: 0 auto !important;
         display: block;
         float: none !important;
+    }
+    .yoga-page {
+        height: auto;
     }
 }
