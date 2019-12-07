@@ -12,6 +12,12 @@ Once all is installed, clone repository and go into the project directory. Then 
 ```bash
 $ npm install
 ```
+You will also need to run:
+```bash
+$ npm install gulp -g
+```
+
+To start browser sync & start compliling the sass run:
 ```bash
 $ gulp
 ```
